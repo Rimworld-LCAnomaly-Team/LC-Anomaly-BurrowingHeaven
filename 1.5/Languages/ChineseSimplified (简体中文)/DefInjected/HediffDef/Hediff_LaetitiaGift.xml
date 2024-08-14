@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <LaetitiaGift.label>蕾蒂希娅的礼物</LaetitiaGift.label>
+  <LaetitiaGift.description>当工作结果为良时，蕾蒂希娅会给该员工赠送礼物，之后该员工头上会显示出一个红心。\n如果员工持有蕾蒂西娅的礼物且被指派去进行其他异想体（包括工具）的工作，当员工走到了距离收容单元指定的距离时，如果仍没有取消对其指派的工作，则这名员工会被炸开的礼物杀死，且会在死亡位置生成一只蜘蛛（小女孩的朋友）。</LaetitiaGift.description>
+  <LaetitiaGift.descriptionShort>这个单位在工作中被赠与了蕾蒂希娅的礼物，该状态将会持续一天。</LaetitiaGift.descriptionShort>
+
+  <LaetitiaGiftAggresive.label>蕾蒂希娅的礼物（攻击性）</LaetitiaGiftAggresive.label>
+  <LaetitiaGiftAggresive.description>不同于工作中获得的礼物，该状态将会很快结束。\n在结束之时，该人会被杀死，且数个小女孩的朋友将会生成在死亡地点。</LaetitiaGiftAggresive.description>
+  <LaetitiaGiftAggresive.descriptionShort>这个单位被EGO武器赋予了攻击性的蕾蒂希娅的礼物，该状态将会很快结束。</LaetitiaGiftAggresive.descriptionShort>
+  
+</LanguageData>

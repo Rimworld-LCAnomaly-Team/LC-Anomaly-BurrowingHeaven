@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LCAnomalyLibrary.Defs.EntityCodexEntryDef>
+  	<defName>BurrowingHeaven</defName>
+    <label>BurrowingHeaven</label>
+    <description>The Burrowing Heaven (O-04-72) is an Abnormality similar in form to a tree, having a stalk coming from the floor and two skeletal wing-like extremities that branch into minor parts. Its main body is of a red color.\nIn the junction where the three main parts meet, it has a yellow eye with a red iris, as well as smaller eyes on other parts of its body.</description>
+    <uiIconPath>UI/CodexEntries/BurrowingHeaven</uiIconPath>
+    <category>WAW</category>
+    <discoveryType>BecameVisible</discoveryType>
+    <linkedThings>
+      <li>BurrowingHeaven</li>
+    </linkedThings>
+    <orderInCategory>800</orderInCategory>
+  </LCAnomalyLibrary.Defs.EntityCodexEntryDef>
+
+</Defs>

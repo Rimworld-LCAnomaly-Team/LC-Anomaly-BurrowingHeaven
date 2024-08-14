@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="LC_EntityBase" Name="BaseBurrowingHeaven" Abstract="True">
+    <thingClass>BurrowingHeaven.Things.LC_BurrowingHeavenPawn</thingClass>
+    <statBases>
+      <MoveSpeed>0</MoveSpeed>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>100</ComfyTemperatureMax>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <MinimumContainmentStrength>0</MinimumContainmentStrength>
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <race>
+      <body>BurrowingHeaven</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <intelligence>ToolUser</intelligence>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <fleshType>EntityMechanical</fleshType>
+      <foodType>None</foodType>
+      <hasCorpse>false</hasCorpse>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <soundCallIntervalRange>120~240</soundCallIntervalRange>
+      <disableIgniteVerb>true</disableIgniteVerb>
+      <trainability>None</trainability>
+      <lifeStageAges>
+        <li>
+          <def>EntityFullyFormed</def>
+          <soundDeath>BurrowingHeaven_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <hediffGiverSets><li>AnomalyEntity</li></hediffGiverSets>
+    </race>
+    <comps>
+      <li Class="BurrowingHeaven.Comp.CompProperties_BurrowingHeaven">
+        <qliphothCountMax>3</qliphothCountMax>
+        <studySucessRateBase>0.2</studySucessRateBase>
+        <shouldNotifyWhenEscape>true</shouldNotifyWhenEscape>
+        <ifProvideWarningPoints>true</ifProvideWarningPoints>
+        <customWarningPoints>-1</customWarningPoints>
+        <soundWorking>BurrowingHeaven_loop</soundWorking>
+      </li>
+      <li Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>45</baseEscapeIntervalMtbDays>
+        <lookForTargetOnEscape>false</lookForTargetOnEscape>
+        <hasAnimation>false</hasAnimation>
+      </li>
+      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_Studiable">
+        <frequencyTicks>60000</frequencyTicks>
+        <studyTimesPeriod>1</studyTimesPeriod>
+        <knowledgeCategory>Advanced</knowledgeCategory>
+        <anomalyKnowledge>3</anomalyKnowledge>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresHoldingPlatform>true</requiresHoldingPlatform>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- BurrowingHeaven Contained -->
+  <ThingDef ParentName="BaseBurrowingHeaven">
+    <defName>BurrowingHeaven</defName>
+    <label>BurrowingHeaven</label>
+    <description>The Burrowing Heaven (O-04-72) is an Abnormality similar in form to a tree, having a stalk coming from the floor and two skeletal wing-like extremities that branch into minor parts. Its main body is of a red color.\nIn the junction where the three main parts meet, it has a yellow eye with a red iris, as well as smaller eyes on other parts of its body.</description>
+    <uiIconPath>UI/CodexEntries/BurrowingHeaven</uiIconPath>
+    <race>
+      <renderTree>BurrowingHeaven</renderTree>
+      <thinkTreeMain>BurrowingHeaven</thinkTreeMain>
+      <thinkTreeConstant>BurrowingHeavenConstant</thinkTreeConstant>
+    </race>
+    <comps>
+      <li Class="LCAnomalyCore.Comp.CompProperties_PeBoxProduce">
+        <peBoxDef>EnkephalinBox</peBoxDef>
+        <amountStudyGood>24</amountStudyGood>
+        <amountStudyNormal>12</amountStudyNormal> 
+        <amountStudyBad>6</amountStudyBad>
+      </li>
+      <!-- <li Class="LCAnomalyLibrary.Comp.CompProperties_Accessoryable">
+        <accessoryDef>Accessory_BurrowingHeaven</accessoryDef>
+        <accessoryChance>0.03</accessoryChance>
+        <unlockLevel>2</unlockLevel>
+      </li> -->
+      <!-- <li Class="LCAnomalyLibrary.Comp.CompProperties_EgoExtractable">
+        <weaponExtracted>EgoWeapon_BurrowingHeaven</weaponExtracted>
+        <weaponIconPath>UI/Commands/ExtractEGO_BurrowingHeaven_Weapon</weaponIconPath>
+        <amountMaxWeapon>3</amountMaxWeapon>
+        <weaponExtractedNeed>40</weaponExtractedNeed>
+        <armorExtracted>Apparel_BurrowingHeavenSuit</armorExtracted>
+        <armorIconPath>UI/Commands/ExtractEGO_BurrowingHeaven_Armor</armorIconPath>
+        <amountMaxArmor>2</amountMaxArmor>
+        <armorExtractedNeed>50</armorExtractedNeed>
+        <unlockLevel>3</unlockLevel>
+      </li> -->
+      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_StudyUnlocks">
+        <studyNotes>
+          <li>
+            <threshold>6</threshold>
+            <label>Observation Level: I</label>
+            <text>Work with The Burrowing Heaven must be done while the manager has the Containment Unit in sight..</text>
+          </li>
+          <li>
+            <threshold>8</threshold>
+            <label>Observation Level: II</label>
+            <text>During the work process, when the Containment Unit went out of the camera’s sight, the Qliphoth Counter lowered.\nWhen The Burrowing Heaven’s Containment Unit was still unmonitored after the phenomenon, the Counter continued to lower.\nUnlocks the E.G.O. Gift 'Laetitia'.</text>
+          </li>
+          <li>
+            <threshold>10</threshold>
+            <label>Observation Level: III</label>
+            <text>When the work result was Normal or Good, the Qliphoth Counter increased. It seems that it can be increased up to three levels at a time, depending on the work result.\nUnlocks the E.G.O. Weapon and Suit 'Lantern'.</text>
+          </li>
+          <li>
+            <threshold>12</threshold>
+            <label>Observation Level: IV</label>
+            <text>WARNING: Do not stop looking at the Abnormality while its suppression is in progress.</text>
+          </li>
+        </studyNotes>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

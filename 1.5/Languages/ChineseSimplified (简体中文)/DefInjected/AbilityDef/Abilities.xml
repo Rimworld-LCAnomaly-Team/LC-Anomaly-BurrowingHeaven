@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <LaetitiaMonster_Attack.label>刺击</LaetitiaMonster_Attack.label>
+  <LaetitiaMonster_Attack.description>你不应当看到这条描述。</LaetitiaMonster_Attack.description>
+
+  <LaetitiaEGO_SendTheGift.label>送出礼物</LaetitiaEGO_SendTheGift.label>
+  <LaetitiaEGO_SendTheGift.description>标记选中目标，为其添加一个蕾蒂希娅的礼物状态。\n与工作获得的状态不同，施加的状态是十分具有侵略性的。\n当状态倒计时结束或目标倒下时，数只小女孩的朋友将会出现。</LaetitiaEGO_SendTheGift.description>
+  
+</LanguageData>

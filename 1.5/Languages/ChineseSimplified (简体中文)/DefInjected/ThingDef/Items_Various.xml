@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <LaetitiaEgg.label>蕾蒂希娅蛋</LaetitiaEgg.label>
+  <LaetitiaEgg.description>异想体死亡后的原始形态，呈现出特殊的蛋形。</LaetitiaEgg.description>
+
+  <LaetitiaEgg.comps.CompHoldingPlatformTarget.capturedLetterLabel>蕾蒂希娅重生</LaetitiaEgg.comps.CompHoldingPlatformTarget.capturedLetterLabel>
+  <LaetitiaEgg.comps.CompHoldingPlatformTarget.capturedLetterText>在{PAWN_nameDef}将蕾蒂希娅的蛋束缚至收容平台后，里面的蕾蒂希娅重生了。\n蕾蒂希娅被镇压时肉体会消散，仅留下蕾蒂希娅的蛋。</LaetitiaEgg.comps.CompHoldingPlatformTarget.capturedLetterText>
+  
+  <LaetitiaEgg.comps.CompUsable.useLabel>砸碎{0_label}</LaetitiaEgg.comps.CompUsable.useLabel>
+  <LaetitiaEgg.comps.CompUsable.useMessage>{PAWN_nameDef}将蕾蒂希娅的蛋砸碎了。它消散后露出了一些PeBox。</LaetitiaEgg.comps.CompUsable.useMessage>
+  <LaetitiaEgg.comps.LC_CompEgg.activateDescString>砸碎蕾蒂希娅的蛋以防止它复活成一只新的蕾蒂希娅。</LaetitiaEgg.comps.LC_CompEgg.activateDescString>
+  <LaetitiaEgg.comps.LC_CompEgg.activateLabelString>砸碎...</LaetitiaEgg.comps.LC_CompEgg.activateLabelString>
+  <LaetitiaEgg.comps.LC_CompEgg.activatingStringPending>正在砸碎蕾蒂希娅的蛋</LaetitiaEgg.comps.LC_CompEgg.activatingStringPending>
+  <LaetitiaEgg.comps.LC_CompEgg.guiLabelString>选择操作对象</LaetitiaEgg.comps.LC_CompEgg.guiLabelString>
+  
+</LanguageData>

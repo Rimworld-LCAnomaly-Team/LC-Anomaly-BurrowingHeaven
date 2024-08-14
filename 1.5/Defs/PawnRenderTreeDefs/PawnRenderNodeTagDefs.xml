@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_body_main</defName>
+  </PawnRenderNodeTagDef>
+  
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_body_back_l</defName>
+  </PawnRenderNodeTagDef>
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_body_back_r</defName>
+  </PawnRenderNodeTagDef>
+
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_body_front_l</defName>
+  </PawnRenderNodeTagDef>
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_body_front_r</defName>
+  </PawnRenderNodeTagDef>
+  <PawnRenderNodeTagDef>
+
+    <defName>BurrowingHeaven_eye_main_bottom</defName>
+  </PawnRenderNodeTagDef>
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_eye_main_middle</defName>
+  </PawnRenderNodeTagDef>
+  <PawnRenderNodeTagDef>
+    <defName>BurrowingHeaven_eye_main_top</defName>
+  </PawnRenderNodeTagDef>
+  
+</Defs>

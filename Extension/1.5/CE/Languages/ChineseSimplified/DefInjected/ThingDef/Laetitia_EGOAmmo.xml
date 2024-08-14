@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_LaetitiaEGO_FMJ.label>EGO弹：蕾蒂希娅</Ammo_LaetitiaEGO_FMJ.label>
+  <Ammo_LaetitiaEGO_FMJ.description>仅可由蕾蒂希娅EGO使用。</Ammo_LaetitiaEGO_FMJ.description>
+
+  <!-- Projectiles -->
+
+  <Bullet_LaetitiaEGO_FMJ.label>EGO弹：蕾蒂希娅</Bullet_LaetitiaEGO_FMJ.label>
+
+</LanguageData>

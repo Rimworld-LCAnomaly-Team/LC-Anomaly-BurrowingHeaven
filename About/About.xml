@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>LC Anomaly Burrowing Heaven</name>
+	<author>DarthCY</author>
+	<packageId>DarthCY.LC.BurrowingHeaven</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>The Burrowing Heaven abnormality from Lobotomy Corporation.</description>
+	<url>https://github.com/Rimworld-LCAnomaly-Team/LC-Anomaly-BurrowingHeaven</url>
+	<modDependencies>
+		<li>
+			<packageId>DarthCY.LC.AnomalyLibrary</packageId>
+			<displayName>LC Anomaly Library</displayName>
+			<downloadUrl>https://github.com/DarthCY-K/LC-Anomaly-Library/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>DarthCY.LC.AnomalyCore</packageId>
+			<displayName>LC Anomaly Core</displayName>
+			<downloadUrl>https://github.com/DarthCY-K/LC-Anomaly-Core/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>DarthCY.LC.AnomalyLibrary</li>
+		<li>DarthCY.LC.AnomalyCore</li>
+	</loadAfter>
+</ModMetaData>

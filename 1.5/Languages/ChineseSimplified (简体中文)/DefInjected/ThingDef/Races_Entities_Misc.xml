@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Laetitia.label>蕾蒂希娅</Laetitia.label>
+  <Laetitia.description>蕾蒂希娅（O-01-67）是一个人形异想体。从外表上看，它是一个皮肤苍白的小女孩，有着灰色的头发以及红色的眼睛。它的头上戴着一个红色的蕾丝发带，辫子上系着一对稍大的金色铃铛。\n蕾蒂希娅身穿一条红白色的裙子，领口系着一个红色的蝴蝶结。脚上穿着一双红色的童鞋，腿部套有一双黑色的过膝袜。它的动作非常僵硬，与一个正常人相比，蕾蒂希娅显得更像是一个机器人。对它进行工作时，可以在收容单元内听到八音盒的声音。</Laetitia.description>
+
+  <LaetitiaMonster.label>小女孩的朋友</LaetitiaMonster.label>
+  <LaetitiaMonster.description>.</LaetitiaMonster.description>
+  
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.0.label>观察等级：I</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.0.label>
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.0.text>当工作结果为良时，“蕾蒂希娅”会赠送一个小小的礼物给完成工作的员工。</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.0.text>
+  
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.1.label>观察等级：II</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.1.label>
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.1.text>当持有礼物的员工被派去其他异想体的收容单元进行工作时，一个████会从其体内爆出并杀死这名员工。\nE.G.O饰品已解锁。</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.1.text>
+  
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.2.label>观察等级：III</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.2.label>
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.2.text>如果在████诞生前取消工作指令的话，持有礼物的员工就不会出现任何变化。\nE.G.O武器与护甲已解锁。</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.2.text>
+
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.3.label>观察等级：IV</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.3.label>
+  <Laetitia.comps.LC_CompStudyUnlocks.studyNotes.3.text>WIP</Laetitia.comps.LC_CompStudyUnlocks.studyNotes.3.text>
+  
+</LanguageData>

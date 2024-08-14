@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="BaseBurrowingHeavenKind" Abstract="True">
+    <canMeleeAttack>false</canMeleeAttack>
+    <defaultFactionType>Entities</defaultFactionType>
+    <overrideDebugActionCategory>Entity</overrideDebugActionCategory>
+    <meleeAttackInfectionPathways>
+      <li>EntityAttacked</li>
+    </meleeAttackInfectionPathways>
+    <forceDeathOnDowned>true</forceDeathOnDowned>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseBurrowingHeavenKind">
+    <defName>BurrowingHeaven</defName>
+    <label>Burrowing Heaven</label>
+    <race>BurrowingHeaven</race>
+    <combatPower>20</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/BurrowingHeaven/BurrowingHeaven</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>3</drawSize>
+        </bodyGraphicData>
+        <silhouetteGraphicData>
+          <texPath>UI/CodexEntries/BurrowingHeaven</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>2</drawSize>
+        </silhouetteGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

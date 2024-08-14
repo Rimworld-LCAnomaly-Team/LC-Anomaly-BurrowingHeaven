@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Groups -->
+
+  <!-- body_main -->
+  <BodyPartGroupDef>
+    <defName>BurrowingHeaven_body_main</defName>
+    <label>BurrowingHeaven_body_main</label>
+    <labelShort>BurrowingHeaven_body_main</labelShort>
+    <listOrder>77</listOrder>
+  </BodyPartGroupDef>
+
+  <!-- body_front -->
+  <BodyPartGroupDef>
+    <defName>BurrowingHeaven_body_front</defName>
+    <label>BurrowingHeaven_body_front</label>
+    <labelShort>BurrowingHeaven_body_front</labelShort>
+    <listOrder>77</listOrder>
+  </BodyPartGroupDef>
+
+  <!-- body_back -->
+  <BodyPartGroupDef>
+    <defName>BurrowingHeaven_body_back</defName>
+    <label>BurrowingHeaven_body_back</label>
+    <labelShort>BurrowingHeaven_body_back</labelShort>
+    <listOrder>77</listOrder>
+  </BodyPartGroupDef>  
+
+  <!-- eye_main -->
+  <BodyPartGroupDef>
+    <defName>BurrowingHeaven_eye_main</defName>
+    <label>BurrowingHeaven_eye_main</label>
+    <labelShort>BurrowingHeaven_eye_main</labelShort>
+    <listOrder>77</listOrder>
+  </BodyPartGroupDef>
+
+  <!-- Parts -->
+
+  <!-- body_main -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_body_main</defName>
+    <label>BurrowingHeaven_body_main</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>
+
+  <!-- body_front_l -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_body_front_l</defName>
+    <label>BurrowingHeaven_body_front_l</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>
+  <!-- body_front_r -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_body_front_r</defName>
+    <label>BurrowingHeaven_body_front_r</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>  
+
+  <!-- body_back_l -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_body_back_l</defName>
+    <label>BurrowingHeaven_body_back_l</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>  
+  <!-- body_back_r -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_body_back_r</defName>
+    <label>BurrowingHeaven_body_back_r</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>  
+
+  <!-- eye_main_bottom -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_eye_main_bottom</defName>
+    <label>BurrowingHeaven_eye_main_bottom</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>
+  <!-- eye_main_middle -->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_eye_main_middle</defName>
+    <label>BurrowingHeaven_eye_main_middle</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef> 
+  <!-- eye_main_top-->
+  <BodyPartDef>
+    <defName>BurrowingHeaven_eye_main_top</defName>
+    <label>BurrowingHeaven_eye_main_top</label>
+    <hitPoints>40</hitPoints>
+  </BodyPartDef>  
+
+  <!-- Bodies -->
+
+  <BodyDef>
+    <defName>BurrowingHeaven</defName>
+    <label>BurrowingHeaven</label>
+    <corePart>
+      <def>Torso</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>Torso</li>
+      </groups>
+      <parts>
+        <li>
+          <def>BurrowingHeaven_body_main</def>
+          <customLabel>BurrowingHeaven_body_main</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_body_main</li>
+          </groups>
+        </li>
+
+        <li>
+          <def>BurrowingHeaven_body_front_l</def>
+          <customLabel>BurrowingHeaven_body_front_l</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_body_front</li>
+          </groups>
+        </li>
+        <li>
+          <def>BurrowingHeaven_body_front_r</def>
+          <customLabel>BurrowingHeaven_body_front_r</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_body_front</li>
+          </groups>
+        </li>
+
+        <li>
+          <def>BurrowingHeaven_body_back_l</def>
+          <customLabel>BurrowingHeaven_body_back_l</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_body_back</li>
+          </groups>
+        </li>
+        <li>
+          <def>BurrowingHeaven_body_back_r</def>
+          <customLabel>BurrowingHeaven_body_back_r</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_body_back</li>
+          </groups>
+        </li>
+
+        <li>
+          <def>BurrowingHeaven_eye_main_bottom</def>
+          <customLabel>BurrowingHeaven_eye_main_bottom</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_eye_main</li>
+          </groups>
+        </li>
+        <li>
+          <def>BurrowingHeaven_eye_main_middle</def>
+          <customLabel>BurrowingHeaven_eye_main_middle</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_eye_main</li>
+          </groups>
+        </li>
+        <li>
+          <def>BurrowingHeaven_eye_main_top</def>
+          <customLabel>BurrowingHeaven_eye_main_top</customLabel>
+          <coverage>0.77</coverage>
+          <groups>
+            <li>BurrowingHeaven_eye_main</li>
+          </groups>
+        </li>
+
+
+        <li>
+          <def>Spine</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.020</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.017</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.025</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.075</coverage>
+          <height>Top</height>
+          <groups>
+            <li>Neck</li>
+          </groups>
+          <parts>
+            <li>
+              <def>FleshbeastHead</def>
+              <coverage>0.80</coverage>
+              <groups>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.18</coverage>
+                  <depth>Inside</depth>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>Eyes</li>
+                    <li>FullHead</li>
+                  </groups>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.8</coverage>
+                      <groups>
+                        <li>UpperHead</li>
+                        <li>Eyes</li>
+                        <li>FullHead</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.07</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.07</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Jaw</def>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>left shoulder</customLabel>
+          <coverage>0.12</coverage>
+          <groups>
+            <li>Shoulders</li>
+          </groups>
+        </li>
+        <li>
+          <def>Shoulder</def>
+          <customLabel>right shoulder</customLabel>
+          <coverage>0.12</coverage>
+          <groups>
+            <li>Shoulders</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>left tentacle</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>FleshbeastLeg</def>
+          <customLabel>right tentacle</customLabel>
+          <coverage>0.1</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>Legs</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>

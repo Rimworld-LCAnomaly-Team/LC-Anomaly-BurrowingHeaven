@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnRenderTreeDef>
+    <defName>BurrowingHeaven</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <debugLabel>Root</debugLabel>
+      <tagDef>Root</tagDef>
+      <children>
+        <li>
+          <debugLabel>Body</debugLabel>
+          <tagDef>Body</tagDef>
+          <useRottenColor>true</useRottenColor>
+          <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+          <children>
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_body_main</debugLabel>
+              <tagDef>BurrowingHeaven_body_main</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_main</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>4</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+            </li>
+
+            <!-- body_front_l -->
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_body_front_l</debugLabel>
+              <tagDef>BurrowingHeaven_body_front_l</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_front_l</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>6</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+            </li>
+            <!-- body_front_r -->
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_body_front_r</debugLabel>
+              <tagDef>BurrowingHeaven_body_front_r</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_front_r</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>6</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+            </li>
+
+            <!-- body_back_l -->
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_body_back_l</debugLabel>
+              <tagDef>BurrowingHeaven_body_back_l</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_back_l</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>5</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+            </li>
+            <!-- body_back_r -->
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_body_back_r</debugLabel>
+              <tagDef>BurrowingHeaven_body_back_r</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_back_r</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>5</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+            </li>
+
+            <!-- eye_main -->
+            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+              <debugLabel>BurrowingHeaven_eye_main_bottom</debugLabel>
+              <tagDef>BurrowingHeaven_eye_main_bottom</tagDef>
+              <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_bottom</texPath>
+              <useRottenColor>true</useRottenColor>
+              <baseLayer>7</baseLayer>
+              <offset>0,0</offset>
+              <drawSize>3,3</drawSize>
+              <children>
+                <!-- middle -->
+                <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+                  <debugLabel>BurrowingHeaven_eye_main_middle</debugLabel>
+                  <tagDef>BurrowingHeaven_eye_main_middle</tagDef>
+                  <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_middle</texPath>
+                  <useRottenColor>true</useRottenColor>
+                  <baseLayer>8</baseLayer>
+                  <offset>0,0</offset>
+                  <drawSize>1,1</drawSize>
+                </li>
+                <!-- top -->
+                <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+                  <debugLabel>BurrowingHeaven_eye_main_top</debugLabel>
+                  <tagDef>BurrowingHeaven_eye_main_top</tagDef>
+                  <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_top</texPath>
+                  <useRottenColor>true</useRottenColor>
+                  <baseLayer>9</baseLayer>
+                  <offset>0,0</offset>
+                  <drawSize>1,1</drawSize>
+                </li>                
+              </children>
+            </li>
+          </children>
+        </li>
+
+        <li Class="PawnRenderNodeProperties_Carried">
+          <debugLabel>Carried thing</debugLabel>
+          <workerClass>PawnRenderNodeWorker_Carried</workerClass>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+
+</Defs>
