@@ -1,4 +1,5 @@
-﻿using LCAnomalyLibrary.Comp;
+﻿using BurrowingHeaven.Things;
+using LCAnomalyLibrary.Comp;
 using LCAnomalyLibrary.Util;
 using RimWorld;
 using Verse;
@@ -10,6 +11,8 @@ namespace BurrowingHeaven.Comp
         #region 变量
 
         public new CompProperties_BurrowingHeaven Props => (CompProperties_BurrowingHeaven)props;
+
+        public LC_BurrowingHeavenPawn SelfPawn => (LC_BurrowingHeavenPawn)parent;
 
         #endregion 变量
 
@@ -23,6 +26,8 @@ namespace BurrowingHeaven.Comp
         public override void Notify_Escaped()
         {
             base.Notify_Escaped();
+
+            SelfPawn.ShouldCheckInsight = true;
         }
 
         /// <summary>
@@ -33,9 +38,16 @@ namespace BurrowingHeaven.Comp
             CheckIsDiscovered();
         }
 
+        public override void Notify_Studied(Pawn studier)
+        {
+            base.Notify_Studied(studier);
+            SelfPawn.ShouldCheckInsight = false;
+        }
+
         public override void Notify_Studying(Pawn studier)
         {
             Log.Warning("穿刺乐园正在被工作，请注意");
+            SelfPawn.ShouldCheckInsight = true;
         }
 
         #endregion 触发事件
