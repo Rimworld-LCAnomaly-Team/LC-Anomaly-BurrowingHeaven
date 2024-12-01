@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <LCAnomalyLibrary.Defs.ThingDef_AnomalyEntity_Spawn ParentName="EtherealThingBase">
+  <LCAnomalyCore.Defs.ThingDef_AnomalyEntity_Spawn ParentName="EtherealThingBase">
     <defName>DyingBurrowingHeaven</defName>
     <anomalyLevelTag>WAW</anomalyLevelTag>
     <selectable>false</selectable>
     <tickerType>Normal</tickerType>
     <thingClass>BurrowingHeaven.Effect.DyingBurrowingHeaven</thingClass>
     <drawOffscreen>true</drawOffscreen>
-  </LCAnomalyLibrary.Defs.ThingDef_AnomalyEntity_Spawn>
+  </LCAnomalyCore.Defs.ThingDef_AnomalyEntity_Spawn>
   
 </Defs>

@@ -49,7 +49,7 @@
         <lookForTargetOnEscape>false</lookForTargetOnEscape>
         <hasAnimation>false</hasAnimation>
       </li>
-      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_Studiable">
+      <li Class="LCAnomalyCore.Comp.LC_CompProperties_Studiable">
         <frequencyTicks>60000</frequencyTicks>
         <studyTimesPeriod>1</studyTimesPeriod>
         <knowledgeCategory>Advanced</knowledgeCategory>
@@ -78,12 +78,12 @@
         <amountStudyNormal>12</amountStudyNormal> 
         <amountStudyBad>6</amountStudyBad>
       </li>
-      <!-- <li Class="LCAnomalyLibrary.Comp.CompProperties_Accessoryable">
+      <!-- <li Class="LCAnomalyCore.Comp.CompProperties_Accessoryable">
         <accessoryDef>Accessory_BurrowingHeaven</accessoryDef>
         <accessoryChance>0.03</accessoryChance>
         <unlockLevel>2</unlockLevel>
       </li> -->
-      <!-- <li Class="LCAnomalyLibrary.Comp.CompProperties_EgoExtractable">
+      <!-- <li Class="LCAnomalyCore.Comp.CompProperties_EgoExtractable">
         <weaponExtracted>EgoWeapon_BurrowingHeaven</weaponExtracted>
         <weaponIconPath>UI/Commands/ExtractEGO_BurrowingHeaven_Weapon</weaponIconPath>
         <amountMaxWeapon>3</amountMaxWeapon>
@@ -94,7 +94,7 @@
         <armorExtractedNeed>50</armorExtractedNeed>
         <unlockLevel>3</unlockLevel>
       </li> -->
-      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_StudyUnlocks">
+      <li Class="LCAnomalyCore.Comp.LC_CompProperties_StudyUnlocks">
         <studyNotes>
           <li>
             <threshold>6</threshold>

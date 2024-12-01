@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   
-  <LCAnomalyLibrary.Defs.ThingDef_AnomalyEgg ParentName="ResourceBase">
+  <LCAnomalyCore.Defs.ThingDef_AnomalyEgg ParentName="ResourceBase">
     <defName>BurrowingHeavenEgg</defName>
     <label>Burrowing Heaven Egg</label>
     <description>The original form of Abnormality after the death, presents a special egg shape</description>
@@ -73,8 +73,8 @@
         </leavings>
       </li>
       <li Class="CompProperties_BiosignatureOwner"/>
-      <li Class="LCAnomalyLibrary.Comp.LC_CompProperties_InteractableEgg">
-        <compClass>LCAnomalyLibrary.Comp.LC_CompEgg</compClass>
+      <li Class="LCAnomalyCore.Comp.LC_CompProperties_InteractableEgg">
+        <compClass>LCAnomalyCore.Comp.LC_CompEgg</compClass>
         <ticksToActivate>0</ticksToActivate>
         <activateTexPath>UI/Commands/SmashBurrowingHeavenEgg</activateTexPath>
         <activateLabelString>Smash...</activateLabelString>
@@ -91,6 +91,6 @@
         </targetingParameters>
       </li>
     </comps>
-  </LCAnomalyLibrary.Defs.ThingDef_AnomalyEgg>
+  </LCAnomalyCore.Defs.ThingDef_AnomalyEgg>
 
 </Defs>

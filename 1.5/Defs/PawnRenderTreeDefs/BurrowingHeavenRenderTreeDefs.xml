@@ -13,7 +13,7 @@
           <useRottenColor>true</useRottenColor>
           <nodeClass>PawnRenderNode_AnimalPart</nodeClass>
           <children>
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_body_main</debugLabel>
               <tagDef>BurrowingHeaven_body_main</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_main</texPath>
@@ -24,7 +24,7 @@
             </li>
 
             <!-- body_front_l -->
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_body_front_l</debugLabel>
               <tagDef>BurrowingHeaven_body_front_l</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_front_l</texPath>
@@ -34,7 +34,7 @@
               <drawSize>3,3</drawSize>
             </li>
             <!-- body_front_r -->
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_body_front_r</debugLabel>
               <tagDef>BurrowingHeaven_body_front_r</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_front_r</texPath>
@@ -45,7 +45,7 @@
             </li>
 
             <!-- body_back_l -->
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_body_back_l</debugLabel>
               <tagDef>BurrowingHeaven_body_back_l</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_back_l</texPath>
@@ -55,7 +55,7 @@
               <drawSize>3,3</drawSize>
             </li>
             <!-- body_back_r -->
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_body_back_r</debugLabel>
               <tagDef>BurrowingHeaven_body_back_r</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/body_back_r</texPath>
@@ -66,7 +66,7 @@
             </li>
 
             <!-- eye_main -->
-            <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+            <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
               <debugLabel>BurrowingHeaven_eye_main_bottom</debugLabel>
               <tagDef>BurrowingHeaven_eye_main_bottom</tagDef>
               <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_bottom</texPath>
@@ -76,7 +76,7 @@
               <drawSize>3,3</drawSize>
               <children>
                 <!-- middle -->
-                <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+                <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
                   <debugLabel>BurrowingHeaven_eye_main_middle</debugLabel>
                   <tagDef>BurrowingHeaven_eye_main_middle</tagDef>
                   <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_middle</texPath>
@@ -86,7 +86,7 @@
                   <drawSize>1,1</drawSize>
                 </li>
                 <!-- top -->
-                <li Class="LCAnomalyLibrary.Render.PawnRenderNodeProperties_StillState">
+                <li Class="LCAnomalyCore.Render.PawnRenderNodeProperties_StillState">
                   <debugLabel>BurrowingHeaven_eye_main_top</debugLabel>
                   <tagDef>BurrowingHeaven_eye_main_top</tagDef>
                   <texPath>Things/Pawn/BurrowingHeaven/Attachments/eye_main_top</texPath>
